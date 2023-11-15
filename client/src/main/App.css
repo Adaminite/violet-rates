@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+.my-navbar{
+    display: flex;
+    justify-content: space-between; 
+    padding: 8px;
+    align-items: center;
+
+    font-size: 22px;
+    color: white;
+
+    
+}
+
+.left-items{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.right-items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Forms for sign up, log in, add location, and add review */
+#add-form{
+    max-width: 700px;
+    margin: 10px;
+}
+
+#add-form-ctnr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn-ctnr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#sign-up-container, #log-in-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up-form, #log-in-form{
+    width: 300px;
+}
+
+/* For home page */
+
+#home{
+    height: 100vh;
+}
+
+.home-overlay{
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0,0.3)), url('./images/74101f337a707c0136844998d17a499f.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.home-title{
+    font-size: calc(40px + 1vw)
+}
+
+.home-caption{
+    font-size: calc(26px + 1vw);
+}
+
+#review-header{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    
+}
+
+#reviews-wrapper{
+    display: flex;
+    justify-content: left;
+    min-width: 100vw;
+}
+
+#reviews-container{
+   margin: 0;
+}
+
+.review-container{
+    border-radius: 10px;
+    border: 4px groove #6f5499;
+    outline: none;
+    margin-bottom: 10px;
+    min-height: 100px;
+}

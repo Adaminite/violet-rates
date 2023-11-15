@@ -1,0 +1,19 @@
+{
+  "name": "violet-rates-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Omar Niazi",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=true npm install --prefix client && npm run build --prefix client"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
